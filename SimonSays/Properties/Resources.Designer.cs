@@ -99,6 +99,16 @@ namespace SimonSays.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap simonLogo {
+            get {
+                object obj = ResourceManager.GetObject("simonLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SimonSaysImage {
             get {
                 object obj = ResourceManager.GetObject("SimonSaysImage", resourceCulture);
